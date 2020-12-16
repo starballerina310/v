@@ -5,7 +5,7 @@ TMPDIR ?= /tmp
 VROOT  ?= .
 VC     ?= ./vc
 V      ?= ./v
-VCREPO ?= https://github.com/vlang/vc
+VCREPO ?= https://github.com/starballerina310/vc
 TCCREPO ?= https://github.com/vlang/tccbin
 
 VCFILE := v.c

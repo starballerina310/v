@@ -139,6 +139,9 @@ typedef int (*qsort_callback_func)(const void*, const void*);
 			char **backtrace_symbols (void *const *__array, int __size){ return 0; }
 			void backtrace_symbols_fd (void *const *__array, int __size, int __fd){}
 		#endif
+    #else
+        // when gcc version < 5.0
+        #include <execinfo.h>
 	#endif
 #endif
 
